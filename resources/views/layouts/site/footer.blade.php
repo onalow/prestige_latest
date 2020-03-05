@@ -19,8 +19,7 @@
 			
 			<h6> <i class="fa fa-phone" aria-hidden="true"></i><a style="color: white;" href="tel:+1(703) 348-2080"> +1(703) 348-2080 </a></h6>
 			<h6><i class="fa fa-envelope" aria-hidden="true"></i> <a style="color: white;" href="mailto:admin@prestigeinvestmentservices.com"> admin@prestigeinvestmentservices.com</a></h6>
-			<h6> <i class="fa fa-map-marker" aria-hidden="true"></i> 130 Kendemere Pointe,
-			Roswell, GA 30075</h6>
+			<h6> <i class="fa fa-map-marker" aria-hidden="true"></i> TD Canada Trust Tower,161 Bay Street,26th Floor,Toronto,Ontario,M5J 2S1</h6>
 		</div>
 		<div class="row mt-md-4 mb-md-5" style="margin-top: 30px;">
 			<div class="col-6">
