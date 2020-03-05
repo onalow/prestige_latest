@@ -504,7 +504,7 @@
 		<div class="row">
 			<div class="her col-sm-12" style="padding: 0;">	
 				<img id="travel" src="{{asset ("css/bundles/frontend/images/travel.jpeg")}}" alt="Snow" style="width:100%;">
-				<div class="centered">Be among the first 50 Investors on the NFP plan for November</div>
+				<div class="centered">Be among the first 50 Investors on the NFP plan for April.</div>
 
 			</div>
 
@@ -517,21 +517,21 @@
 		<div class="row text-center">		
 			<div class="col-11 mx-auto" style="margin-top: 20px; ">	
 
-				<p style="font-size: 20px;">Prestige Investment Services will be sponsoring completely, first 50 of Her Investors on the NFP plans for November on a trip to <b>BERLIN BLOCKCHAIN FOR SCIENCE.</b><br>
+				<p style="font-size: 20px;">Prestige Investment Services will be sponsoring completely, first 50 of Her Investors on the NFP plans for November on a trip to the <b>1st Workshop on Transparent Governance with Blockchain Technology.</b><br>
 				This includes Hotel reservations and dining.</p>
 
 				{{-- <p style="font-size: 20px;"><b>Get new intelligence on:</b></p> --}}
-				<p style="font-size: 20px;">The emerging cryptoeconomy for Science Blockchain as a mean to perform high value transactions is the perfect backend to revolutionize money flow in science, make it more effective, streamlined and reduce the organizational overhead.</p>
-				<p style="font-size: 20px;">Blockchain and the token economy can create unforseen economies and allows realization of novel value propositions. Reward structures for early adopters could make revolutionary approaches and ideas fly faster and higher than today, hopefully overcoming the first mover dilemma and potentially the innovators dilemma.</p>
+				<p style="font-size: 20px;">This presentation-oriented workshop scientifically addresses emerging and disruptive information technology in the role for enhancing the transparency of e-governance services, specifically in the field of blockchain technology use for cross-organizational collaboration.</p>
+				<p style="font-size: 20px;">Currently, we lack systematic approaches for developing and interrelating blockchain-technology based services for e-governance. Thus, the workshop aims at exploring systematic approaches for developing and interrelating blockchain-technology supported services as well as increasing issues concerning blockchain-tech enabled security and privacy of personal data use in e-governance. In addition, technological advances in the field of big data analysis, blockchains for distributed application deployment, smart contracts, the Internet-of-Things, agent technologies, etc., offer new research directions in the blockchain-technology space for further improvements of existing solutions.</p>
 				
 				<p style="font-size: 20px;">Drive your financial services into the future with new blockchain technologies!
 </p>
 
-				<p>Theme: <strong>Blockchain For Science 2019</strong> <br>
-					Venue: <strong>Kreuzberg, Berlin, Germany</strong><br>
-					Date: <strong>04 Nov 2019 - 05 Nov 2019</strong><br>
+				<p>Theme: <strong>Transparent Governance with Blockchain Technology.</strong> <br>
+					Location: <strong>Skukuza, South Africa</strong><br>
+					Date: <strong>05 Apr 2020 - 06 Apr 2020</strong><br>
 					Further information will be relayed to these first 50 investors. <br>
-					<strong>All payments must be made on or before 25th October.</strong>
+					<strong>All payments must be made on or before 29th March.</strong>
 				</p>	
 			</div>
 		</div>
