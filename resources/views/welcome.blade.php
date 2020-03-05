@@ -47,7 +47,7 @@
 										<p>Your investment with a daily profit from </p>
 									</div> --}}
 									<div class="col-md-12 text-center">
-										<h4>Our Investment profit calculator</h4>
+										<h4>Our Investment profit calculator.</h4>
 									</div>
 								</div>
 								<form class="box animated zoomIn" action="/login">

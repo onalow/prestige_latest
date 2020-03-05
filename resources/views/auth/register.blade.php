@@ -50,7 +50,7 @@
 								<label  style="color: white;" class="animate-label required" for="form_email">E-Mail</label>
 								@if ($errors->has('email'))
 								<span class="help-block">
-									<strong>{{ $errors->first('email') }}</strong>
+									<strong style="color: #ffff66">{{ $errors->first('email') }}</strong>
 								</span>
 								@endif
 							</div>
@@ -62,7 +62,7 @@
 								<label style="color: white;" class="animate-label required" for="form_password">Password</label>
 								@if ($errors->has('password'))
 								<span class="help-block">
-									<strong>{{ $errors->first('password') }}</strong>
+									<strong  style="color: #ffff66">{{ $errors->first('password') }}</strong>
 								</span>
 								@endif
 							</div>
@@ -87,7 +87,7 @@
 									<label style="color: white;" class="animate-label required" for="form_phone">Phone number</label>
 									@if ($errors->has('phone'))
 									<span class="help-block">
-										<strong>{{ $errors->first('phone') }}</strong>
+										<strong  style="color: #ffff66">{{ $errors->first('phone') }}</strong>
 									</span>
 									@endif
 
@@ -99,7 +99,7 @@
 									<label style="color: white;" class="animate-label required" for="form_username">Referral Code</label>
 									@if ($errors->has('sponsorID'))
 									<span class="help-block">
-										<strong>{{ $errors->first('sponsorID') }}</strong>
+										<strong  style="color: #ffff66">{{ $errors->first('sponsorID') }}</strong>
 									</span>
 									@endif
 								</div>
@@ -113,7 +113,7 @@
 									<span class="text-center clx-remember-text">I have read and agree to the<br /><a href="{{asset("css/bundles/homepage/docs/terms-conditions.pdf")}}" target="_blank">Terms of Use</a> and <a href="{{-- {{asset("css/bundles/homepage/docs/privacy-policy.pdf")}} --}}javascript:void(0)" target="_blank">Privacy Policy</a>.</span>
 									@if ($errors->has('tos'))
 									<br><span class="help-block">
-										<strong>{{ $errors->first('tos') }}</strong>
+										<strong  style="color: #ffff66">{{ $errors->first('tos') }}</strong>
 									</span>
 									@endif
 								</div>

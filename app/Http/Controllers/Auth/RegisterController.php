@@ -54,6 +54,7 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+    
         return Validator::make($data, [
             'username' => 'required|unique:users',
             'phone' => 'required',
@@ -61,13 +62,8 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             'tos' => 'required',
-            'sponsorID' => [
-                            'nullable',
-                            Rule::exists('users')->where(function ($query) use ($data) {
-                            $query->where('referralID', $data['sponsorID']);
-                        }),
-                    ],
-        ], 
+            'sponsorID' => 'nullable|exists:users,referralID',
+        ],
         [   'tos.required' => 'You must accept the terms of service to continue',
             'sponsorID.exists' => 'The Referral Code is invalid',
 
@@ -84,7 +80,7 @@ class RegisterController extends Controller
     {  
         $data = $request->all();
        
-        $referralID = ('PR-'. strtoupper(substr(md5(uniqid(mt_rand(1, 1000))) , 0,12)));
+        $referralID = ('PR-'.strtoupper(substr(md5(uniqid(mt_rand(1, 1000))) , 0,12)));
         return User::create([
             'username' => $data['username'],
             'phone' => $data['phone'],
