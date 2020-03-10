@@ -59,6 +59,7 @@ class AdminController extends Controller
     public function withdrawals()
     {
         $withdrawals = Withdrawal::latest()->get();
+        dd($withdrawals);
 
         return view('admin.withdrawals', compact('withdrawals'));
     }
