@@ -57,7 +57,13 @@
                 <tr class="even">
                   <td><span>ROI</span></td>
                   <td>
-                    <strong>{{ $cat->roi}}% Payout - {{$cat->weeks}} week{{$cat->weeks >1 ? 's': ''}}</strong>
+                    <strong>{{ $cat->roi}}% Payout - 
+ @if ($cat->type == "nfp")
+                  3 Days</strong>
+                  @else
+                {{$cat->weeks}} week{{$cat->weeks >1 ? 's': ''}}</strong>
+                  @endif
+                     
                   </td>
                 </tr>
                 <tr class="odd">
@@ -76,8 +82,12 @@
                     <span>Indenture Duration</span>
                   </td>
                   <td>
-                    
-                    <strong>{{$cat->duration}} days</strong>
+                    @if ($cat->type == "nfp")
+                  <strong>4 Weeks</strong>
+                  @else
+                 <strong>{{$cat->duration}} days</strong>
+                  @endif
+                   
                   </td>
                 </tr>
                 <tr class="odd">
