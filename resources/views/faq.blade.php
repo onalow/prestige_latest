@@ -78,7 +78,7 @@
 							</div>
 							<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
 								<div class="card-body">
-									The minimum deposit for our normal investment plans is $500 while the minimum investment for our Non-Farm Payroll(NFP) plans is $20,000. We have no minimum withdrawal.
+									The minimum deposit for our normal investment plans is $500 while the minimum investment for our Non-Farm Payroll(NFP) plans is $100,000. We have no minimum withdrawal.
 								</div>
 							</div>
 						</div>
