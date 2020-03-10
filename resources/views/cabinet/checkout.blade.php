@@ -26,7 +26,7 @@
 									@if ($investment->category->type == "nfp")
 									<td><strong>{{ $investment->category->roi}}% Payout </strong></td>
 									@else
-									<td><strong>{{ $investment->category->roi}}% Payout - 3 days{{-- {{$investment->category->weeks}} week{{$investment->category->weeks >1 ? 's': ''}} --}}</strong></td>
+									<td><strong>{{ $investment->category->roi}}% Payout - {{-- 3 days --}}{{$investment->category->weeks}} week{{$investment->category->weeks >1 ? 's': ''}}</strong></td>
 									@endif
 
 									
@@ -39,7 +39,7 @@
 								</tr>
 								
 								<tr class="odd">
-									<td><span>Indenture Duration </span>
+									<td><span>Trade Duration </span>
 									</td>
 
 									@if ($investment->category->type == "nfp")
