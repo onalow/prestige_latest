@@ -98,20 +98,20 @@
             <div class="inner">
               <div class="heading">
                 <h4>NFP 1</h4>
-                <h1 class="percentage">100</h1>
+                <h1 class="percentage">80</h1>
               </div>
               <ul class="list-unstyled list">
-                <li class="title">3 Days Trade</li>
+                {{-- <li class="title">3 Days Trade</li> --}}
                 <ul class="list-unstyled items">
-                  <li class="row">
+                 {{--  <li class="row">
                     <div class="col-7">Indenture Period</div>
                     <div class="col-1 text-center">:</div>
                     <div class="col-4 text-right"><strong>1 Month</strong></div>
-                  </li>
+                  </li> --}}
                   <li class="row">
                     <div class="col-7">Referral Bonus</div>
                     <div class="col-1 text-center">:</div>
-                    <div class="col-4 text-right"><strong>15%</strong></div>
+                    <div class="col-4 text-right"><strong>10%</strong></div>
                   </li>
                   <li class="row">
                     <div class="col-7">24/7 Support</div>
@@ -119,7 +119,7 @@
                     <div class="col-4 text-right"><strong>Yes</strong></div>
                   </li>
                 </ul>
-                <li class="sub-title text-center"><h3>${{ number_format(20000, 0)}} -  ${{ number_format(100000, 0)}}</h3></li>
+                <li class="sub-title text-center"><h3>${{ number_format(100000, 0)}} -  ${{ number_format(300000, 0)}}</h3></li>
                 <li class="row text-center" style="text-align: center;">
                 </li>
                 <div class="col-xs-4 mx-auto">
@@ -133,20 +133,20 @@
             <div class="inner">
               <div class="heading">
                 <h4>NFP 2</h4>
-                <h1 class="percentage">200</h1>
+                <h1 class="percentage">120</h1>
               </div>
               <ul class="list-unstyled list">
-                <li class="title">3 Days Trade </li>
+                {{-- <li class="title">3 Days Trade </li> --}}
                 <ul class="list-unstyled items">
-                  <li class="row">
+                 {{--  <li class="row">
                     <div class="col-7">Indenture Period</div>
                     <div class="col-1 text-center">:</div>
                     <div class="col-4 text-right"><strong>1 Month</strong></div>
-                  </li>
+                  </li> --}}
                   <li class="row">
                     <div class="col-7">Referral Bonus</div>
                     <div class="col-1 text-center">:</div>
-                    <div class="col-4 text-right"><strong>20%</strong></div>
+                    <div class="col-4 text-right"><strong>13%</strong></div>
                   </li>
                   <li class="row">
                     <div class="col-7">24/7 Support</div>
@@ -154,7 +154,7 @@
                     <div class="col-4 text-right"><strong>Yes</strong></div>
                   </li>
                 </ul>
-                <li class="sub-title text-center"><h3>${{ number_format(101000, 0)}} -  ${{ number_format(300000, 0)}}</h3></li>
+                <li class="sub-title text-center"><h3>${{ number_format(310000, 0)}} -  ${{ number_format(1500000, 0)}}</h3></li>
                 <li class="row text-center" style="text-align: center;">
                 </li>
                 <div class="col-xs-4 mx-auto">
@@ -169,20 +169,20 @@
             <div class="inner">
               <div class="heading">
                 <h4>NFP 3</h4>
-                <h1 class="percentage">300</h1>
+                <h1 class="percentage">160</h1>
               </div>
               <ul class="list-unstyled list">
-                <li class="title">3 Days Trade</li>
+                {{-- <li class="title">3 Days Trade</li> --}}
                 <ul class="list-unstyled items">
-                  <li class="row">
+                 {{--  <li class="row">
                     <div class="col-7">Indenture Period</div>
                     <div class="col-1 text-center">:</div>
                     <div class="col-4 text-right"><strong>1 Month</strong></div>
-                  </li>
+                  </li> --}}
                   <li class="row">
                     <div class="col-7">Referral Bonus</div>
                     <div class="col-1 text-center">:</div>
-                    <div class="col-4 text-right"><strong>25%</strong></div>
+                    <div class="col-4 text-right"><strong>15%</strong></div>
                   </li>
                   <li class="row">
                     <div class="col-7">24/7 Support</div>
@@ -190,7 +190,7 @@
                     <div class="col-4 text-right"><strong>Yes</strong></div>
                   </li>
                 </ul>
-                <li class="sub-title text-center"><h3>${{ number_format(301000, 0)}} -  Varied{{-- ${{ number_format(300000, 0)}} --}}</h3></li>
+                <li class="sub-title text-center"><h3>${{ number_format(1510000, 0)}} - ${{ number_format(5000000, 0)}}</h3></li>
                 <li class="row text-center" style="text-align: center;">
                 </li>
                 <div class="col-xs-4 mx-auto">
@@ -201,7 +201,7 @@
             </div>
           </li> 
 
-
+<li> <div class="text-center"> <h4 style="text-align: center;" class="text-center">Contact Admin or Account Manager for details on our Retirement plan</h4></div> </li>
 
         </ul>
         <!-- TradingView Widget BEGIN -->

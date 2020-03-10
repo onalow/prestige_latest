@@ -40,11 +40,11 @@ class DailyPayout extends Command
      */
     public function handle()
     {
-        if (! now()->isSaturday() && ! now()->isSunday()) {
+        if ( !now()->isSaturday() &&  !now()->isSunday()) {
 
-            $investments = Investment::where('status', 'expired')
+            $investments = Investment::/*where('status', 'active')
                                  ->where('status','expired')
-                                 ->get();
+                                 ->*/get();
 
             if ($investments) {
                 // $this->info('got it');

@@ -36,7 +36,7 @@
                 <li class="row">
                   <div class="col-7">Referral Bonus</div>
                   <div class="col-1 text-center">:</div>
-                  <div class="col-4 text-right"><strong>5% - 25%
+                  <div class="col-4 text-right"><strong>{{ number_format($cat->bonus, 0)}}%
                    {{--  {{
                       @if ($loop->index == 0)
                       5%
@@ -83,7 +83,7 @@
           @endforeach
           @endisset
 
-
+<li> <div class="text-center"> <h4 style="text-align: center;" class="text-center">Contact Admin or Account Manager for details on our Retirement plan</h4></div> </li>
         </ul>
       </div>
       <!-- TradingView Widget BEGIN -->
