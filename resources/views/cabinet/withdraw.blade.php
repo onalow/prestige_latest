@@ -26,7 +26,7 @@
 									<br />
 									<input type="text" id="form_amount" name="amount" required="required" class="form-control reinvestAmountValue" placeholder="Amount in USD" />
 
-									<button type="submit" id="form_save" class="btn btn-clx btn-light cld-blue-box cld-blue-btn" {{now()->isFriday()?'': 'disabled'}}
+									<button type="submit" id="form_save" class="btn btn-clx btn-light cld-blue-box cld-blue-btn" 
 										>Withdraw</button>
 									{{-- <p><a href="#" class="videoTutorial" style="font-size: 13px;text-align: center;">How to Invest?</a> </p> --}}
 
