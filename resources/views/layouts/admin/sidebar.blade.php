@@ -1,11 +1,11 @@
 
 <div class="col-md-3 left_col menu_fixed" style="padding-top: 25px;">
   <div class="left_col scroll-view">
-    <div class="navbar nav_title text-center" style="border: 0;">
-      <a href="/dashboard" class="site_title"><img src="{{asset("css/bundles/frontend/images/s.png")}}" style="height:60px; width: 60px;" /> {{-- <span> PRESTIGE</span> --}}</a>
-    </div>
+   {{--  <div class="navbar nav_title text-center" style="border: 0;">
+      <a href="/dashboard" class="site_title"><img src="{{asset("css/bundles/frontend/images/s.png")}}" style="height:60px; width: 60px;" /> <span> PRESTIGE</span></a>
+    </div> --}}
 
-    <div class="clearfix"></div>
+   {{--  <div class="clearfix"></div> --}}
 
     <!-- menu profile quick info -->
     <div class="profile clearfix">
