@@ -11,7 +11,7 @@
             Services(P.I.S),we understand our investors want simple facts, honest answers
           and competitive products.</p>           
           <p class="mt-4 mb-4" style="padding-left: 10px; padding-right: 10px;">P.I.S automatically offers loan services to investors with over $150,000 investment either in our normal investment
-            packages or the Non-Farm Payroll(NFP) plans.Investors over $150,000 are entitled to loans of $500,000-$800,000 yearly and Investors over $300,000 are entitled to $900,000-$1.5Million with 5% paid monthly, or the investor could wish to compound the interest till the time limit,  provided all required information/identity of the investor are duly confirmed by the P.I.S loan board and all Legal authentications are done.
+            packages or the Non-Farm Payroll(NFP) plans.Investors over $150,000 are entitled to loans of $500,000-$800,000 yearly and Investors over $300,000 are entitled to $900,000-$1.5Million with some percentage paid monthly, or the investor could wish to compound the interest till the time limit,  provided all required information/identity of the investor are duly confirmed by the P.I.S loan board and all Legal authentications are done.
           </p> 
         </div>
         <div class="col-sm-12" style="padding-left: 0; padding-right: 0;">
