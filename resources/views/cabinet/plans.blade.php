@@ -76,12 +76,8 @@
                     <span>Indenture Duration</span>
                   </td>
                   <td>
-                    @if ($category->type == "nfp")
-                  <strong>3 Days</strong>
-                  @else
-                 <strong>{{$cat->duration}} days</strong>
-                  @endif
                     
+                    <strong>{{$cat->duration}} days</strong>
                   </td>
                 </tr>
                 <tr class="odd">
