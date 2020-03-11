@@ -44,7 +44,7 @@
 										<td>{{$user->plan() ? 'Active' : 'Not Active'}}</td>
 										<td>{{$user->plan() ? $user->plan()->category->name : ''}}</td>
 										<td>{{$user->created_at}}</td>
-										<td><a href="{{route('user.delete', $user->id)}}" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure you want to do this?')">Delete User</a></td>	
+										<td>{{-- <a href="{{route('user.delete', $user->id)}}" class="btn btn-xs btn-danger" onclick="return confirm('Are you sure you want to do this?')">Delete User</a> --}}</td>	
 										</tr>
 									@endforeach
 								@endisset
