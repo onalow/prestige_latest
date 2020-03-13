@@ -37,7 +37,7 @@ class Kernel extends ConsoleKernel
 
         $schedule->command('daily:payout')
                
-                 ->dailyAt('10:35');
+                 ->dailyAt('11:18');
 
       
     }
