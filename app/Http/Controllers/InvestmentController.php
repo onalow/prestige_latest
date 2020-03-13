@@ -95,7 +95,7 @@ private function getRoi($category)
 {
     $weeks = $category->weeks;
     $roi = $category->roi;
-    $daily_roi = ($roi/100) / ($weeks * 7);
+    $daily_roi = ($roi/100) / ($weeks * 5);
 
     return $daily_roi;
 }
