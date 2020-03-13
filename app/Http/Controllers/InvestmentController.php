@@ -86,7 +86,7 @@ class InvestmentController extends Controller
   private function calculateExpiry($category)
   {
     $duration = $category->duration;
-    $expiry = Carbon::now()->addDays($duration);
+    $expiry = Carbon::now()->addDays(365); // $duration
 
     return $expiry;
 }

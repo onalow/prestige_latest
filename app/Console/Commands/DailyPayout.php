@@ -43,7 +43,7 @@ class DailyPayout extends Command
         if ( !now()->isSaturday() &&  !now()->isSunday()) {
 
             $investments = Investment::where('status', 'active')
-                                 ->where('status','expired')
+                                 ->orwhere('status','expired')
                                  ->get();
 
             if ($investments) {
